@@ -1,2 +1,2 @@
-docker build --tag blog-app
+docker build --tag blog-app .
 docker run --publish 8000:8000 blog-app

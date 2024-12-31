@@ -1,6 +1,8 @@
 FROM python:3.10.15-slim
 
-WORKDIR /app
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /django
 
 COPY requirements.txt requirements.txt
 
